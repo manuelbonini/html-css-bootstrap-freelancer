@@ -13,26 +13,35 @@
 </head>
 <body>
     
+    <!-- HEADER -->
    <header>
-        <nav class="back-darkblue">
+        <nav class="back-darkblue menu">
             <div class="container">
                 <div class="row">  <!-- nav -->
-                    <div class="col-xs-6 col-sm-6 col-md-6">logo</div>
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        Start bootstrap
+                    </div>
                     <div class="col-xs-6 col-sm-6 col-md-6">
                         <div class="row">
-                            <div class="hidden-xs hidden-sm col-md-12">  <!-- colonna menu per il desktop -->
-                                <ul>
-                                    <li>
-                                        <a href="#">cd</a>
-                                        <a href="#">dsd</a>
-                                        <a href="#">cscs</a>
-                                    </li>
-                                </ul>
-                            </div>
-        
-                            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">  <!-- burger menu -->
-                                <div class="burger">
-                                    Burger<i class="fas fa-bars"></i>
+                            <div class="text-right">
+                                <div class="hidden-xs hidden-sm col-md-12">  <!-- colonna menu per il desktop -->
+                                    <ul>
+                                        <li>
+                                            <a href="#">portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">about</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">  <!-- burger menu -->
+                                    <div class="burger">
+                                        Burger<i class="fas fa-bars"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -40,11 +49,16 @@
                 </div>
             </div>
         </nav>
-        <div class="row back-green">  <!-- jumbotron header-->
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <div class="teaser">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quis atque veritatis quia facilis consectetur quaerat omnis, expedita reiciendis eligendi. Beatae velit cum atque maxime ipsam eos aliquam rem dolorem!</p>
+        <div class="back-green teaser-position">
+            <div class="teaser">
+                <div class="teaser-img">
+                    <img src="img/avatar.svg" alt="avatar">
                 </div>
+                <h1>start bootstrap</h1>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>graphic artist - web designer - illustrator</p>
             </div>
         </div>
    </header>
@@ -53,42 +67,57 @@
    <main>
        
     <section>
-        <div class="main-text">testo centrale</div>
         <div class="container">
+            <div class="main-text">
+                <h2>portfolio</h2>
+
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col_box">
-                    <div class="box"></div>
+                    <img class="img-responsive img-rounded" src="img/cabin.png" alt="cabin">
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col_box">
-                     <div class="box"></div>
+                    <img class="img-responsive" src="img/cake.png" alt="cake">
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-4 col_box">
-                     <div class="box"></div>
+                    <img class="img-responsive" src="img/circus.png" alt="circus">
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-4 col_box">
-                     <div class="box"></div>
+                    <img class="img-responsive" src="img/game.png" alt="game">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col_box">
+                    <img class="img-responsive" src="img/safe.png" alt="safe">
                  </div>
                  <div class="col-xs-12 col-sm-6 col-md-4 col_box">
-                      <div class="box"></div>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 col-md-4 col_box">
-                      <div class="box"></div>
-                  </div>
+                    <img class="img-responsive" src="img/submarine.png" alt="submarine">
+                 </div>
             </div>
         </div>
     </section>
         
     <section class="back-green">
-        <div class="main-text">testo centrale</div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6 col_box">
-                    <p class="secondary-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ea excepturi odit fugit molestiae, atque ad voluptates consequatur, aperiam veritatis vitae soluta eveniet perferendis dolores praesentium expedita repudiandae blanditiis accusantium?</p>
+        <div class="small-container">
+            <div class="main-text">
+                <h2>about</h2>
+                <div class="star">
+                    <i class="fas fa-star"></i>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col_box">
-                    <p class="secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorum veritatis officiis nihil ab aut officia, similique amet eum laboriosam perferendis commodi velit iste expedita magnam hic autem rerum quos.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col_box">
+                        <p class="secondary-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem ea excepturi odit fugit molestiae, atque ad voluptates consequatur, aperiam veritatis vitae soluta eveniet perferendis dolores praesentium expedita repudiandae blanditiis accusantium?</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col_box">
+                        <p class="secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorum veritatis officiis nihil ab aut officia, similique amet eum laboriosam perferendis commodi velit iste expedita magnam hic autem rerum quos.</p>
+                    </div>                     
                 </div>
-                 
+            </div>
+            <div>
+
             </div>
         </div>
     </section>

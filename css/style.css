@@ -11,11 +11,71 @@
     background-color: #1abc9c;
 }
 
+.small-container {
+    max-width: 900px;
+    width: 70%;
+    margin: auto;
+}
+
+.menu {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px;
+}
+
 /* HEADER */
+header .back-darkblue ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+header .back-darkblue li {
+    display: inline-block;  
+    margin-right: 20px;
+}
+
+header .menu li a {
+    list-style-type: none;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.teaser-position {
+    position: relative;
+    height: 400px;
+}
+
 .teaser {
     text-align: center;
-    padding: 30px;
-    height: 300px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.teaser h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.teaser .star {
+    font-size: 25px;
+}
+
+.teaser p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.teaser-img {
+    width: 200px;
+    margin: auto;
 }
 
 /* MAIN */
@@ -32,10 +92,16 @@
 
 .main-text {
     text-align: center;
-    color: white;
+    text-transform: uppercase;
+}
 
-    /* TEST */
-    height: 50px;
+.star {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.main-img {
+    padding-bottom: 10px;
 }
 
 .secondary-text {
@@ -45,4 +111,9 @@
 
 .contact-me {
     text-align: center;
+}
+
+.back-green .main-text {
+    color: white;
+    padding-top: 30px;
 }
