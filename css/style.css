@@ -79,11 +79,8 @@ header .menu li a {
 }
 
 /* MAIN */
-.box {
-    height: 100px;
-    width: 100px;
-    background-color: lightcoral;
-    display: inline-block;
+.box-img {
+    margin-bottom: 30px;
 }
 
 .col_box {
